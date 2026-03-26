@@ -1,36 +1,48 @@
-# Netflix Data Analysis
+# 🎮 Video Games Data Analysis
 
-## Objective
-Analyze Netflix content dataset to identify trends in genres, release years, and content distribution.  
-The goal is to extract actionable insights and practice real-world data cleaning and EDA techniques.
+## 📌 Objective
+Analyze video game dataset to identify trends in sales, genres, platforms, and user behavior.
 
-## Data Cleaning
-- Handled missing values using appropriate strategies
+The goal is to extract actionable insights and demonstrate data cleaning and exploratory data analysis (EDA) skills.
+
+---
+
+## 🧹 Data Cleaning
+- Handled missing values
 - Converted columns to correct data types
-- Removed inconsistencies and standardized column formats
+- Standardized column names
+- Removed inconsistencies
 
-## Exploratory Data Analysis (EDA)
-- Distribution of content by type (Movies vs TV Shows)
-- Most common genres on the platform
-- Content release trends over time
+---
 
-## Key Insights
-- Movies represent the majority of Netflix content
-- Certain genres dominate the catalog
-- There has been significant growth in content in recent years
+## 📊 Exploratory Data Analysis (EDA)
+- Sales distribution by platform
+- Most popular genres
+- Trends over time (yearly releases)
+- Regional sales comparison (NA, EU, JP)
 
-## Tools Used
-- Python (pandas, numpy)
-- Jupyter Notebook
+---
 
-## Project Structure
-- `NETFLIX.ipynb` → Full analysis and code
+## 📈 Key Insights
+- Certain platforms dominate specific time periods
+- Action and Sports are among the most popular genres
+- Sales trends show decline in recent years for some platforms
 
-## Conclusion
-This project demonstrates practical skills in data cleaning and exploratory data analysis using real-world data.  
-It reflects the ability to transform raw data into meaningful insights.
+---
 
-## What I Learned
-- How to clean messy datasets
-- How to explore data effectively
-- How to communicate findings clearly
+## 🛠️ Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+
+---
+
+## 🚀 Project Structure
+- `games.ipynb` → Main analysis
+- `README.md` → Project documentation
+
+---
+
+## 👤 Author
+José Alejandro Gutiérrez Ruiz
